@@ -23,3 +23,6 @@ dist-ssr
 *.sln
 *.sw?
 main-merged/
+junior_app/
+vite.config.js
+src/main.jsx
