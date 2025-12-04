@@ -6,7 +6,7 @@ import "./styles/global.css";
 import "./styles/mainStyle.css";
 
 
-// // For local server
+// For local server
 // ReactDOM.createRoot(document.getElementById("root")).render(
 //   <React.StrictMode>
 //     {/* <BrowserRouter basename="/mazing_react_website/"> */}

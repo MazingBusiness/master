@@ -1,3 +1,4 @@
+import { NavLink, useNavigate, Link, useLocation  } from "react-router-dom";
 import Header from "./Header";
 import Footer from "./Footer";
 
@@ -11,9 +12,14 @@ const MainLayout = ({ children }) => (
     <Footer />
 
     <div className="floating-buttons">
-      <a href="/" target="_blank" className="quick-order-btn">
+      <Link
+          to="/quick-order"
+          className="quick-order-btn"
+          onClick={() => setShowMegaMenu(false)}
+        ><img src={quickButton} alt="Side Box" /></Link>
+      {/* <a href="/" target="_blank" className="quick-order-btn">
         <img src={quickButton} alt="Side Box" />
-      </a>
+      </a> */}
 
       <a
         href="https://wa.me/your-number"
